@@ -229,6 +229,8 @@ public class AccountPageController extends AbstractSearchPageController
 		return addressVerificationResultHandler;
 	}
 
+	//test
+
 	@ModelAttribute("countries")
 	public Collection<CountryData> getCountries()
 	{
