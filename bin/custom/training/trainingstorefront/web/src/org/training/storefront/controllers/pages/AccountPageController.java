@@ -301,6 +301,7 @@ public class AccountPageController extends AbstractSearchPageController
 		return getViewForPage(model);
 	}
 
+	//method to get the orders
 	@RequestMapping(value = "/orders", method = RequestMethod.GET)
 	@RequireHardLogIn
 	public String orders(@RequestParam(value = "page", defaultValue = "0") final int page,
